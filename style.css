@@ -24,6 +24,9 @@
 #app .result p{
   text-transform: capitalize;
 }
+#app .hide{
+  display: none;
+}
 #app .result span{
   margin-left: 20px;
 }

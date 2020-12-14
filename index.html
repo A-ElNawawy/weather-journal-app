@@ -13,11 +13,12 @@
       </h1>
       <form>
         <label for="zip">Enter Zip Code Here</label>
-        <input type="text" id="zip" placeholder="enter zip code here">
+        <input type="text" id="zip" placeholder="enter city name">
         <input type="button" value="Get Temp." name="search" onclick="send()">
       </form>
-      <div class="result">
-        <p>Cairo Temp. now is : <span>22</span>&deg; c</p>
+      <p>temperature will appear once you click get temp. button</p>
+      <div id="result" class="result hide">
+        <p><span id="city"></span> Temp. now is : <span id="temp"></span>&deg; c</p>
       </div>
     </div>
     <script src="app.js" type="text/javascript"></script>
